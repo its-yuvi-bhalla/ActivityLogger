@@ -35,7 +35,7 @@ async function timestamps() {
   printStatus()
   const sec = Number(dayjs().format('s'))
 
-  if (sec % 3 === 0) {
+  if (min%10 === 0 && sec === 0) {
     const dir = `screenshots/${dayjs().format('DD_MMMM_YYYY')}`
     fs.mkdirSync(dir, { recursive: true })
 
