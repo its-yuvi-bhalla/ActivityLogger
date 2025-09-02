@@ -51,10 +51,12 @@ npm install
 
 ### 3. Run the Script
 ```bash
-node index.js
+node screenshot.js
+or 
+npm run system
 ```
 
-- Screenshots are captured every 3 seconds (default).  
+- Screenshots are captured every 10 minutes (default).  
 - Keyboard activity is logged alongside.  
 - Press `Ctrl+C` to exit → the script generates a **PDF report** and a **ZIP archive**.  
 
