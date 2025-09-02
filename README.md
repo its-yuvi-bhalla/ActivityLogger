@@ -28,6 +28,8 @@ When the session ends, it generates a **PDF report** of keyboard logs, creates a
 ## 📂 Project Structure
 ```
 .
+├── utils/                 # helper functions
+    ├── helperFunctions 
 ├── logs/                  # Daily logs + PDF reports
 ├── screenshots/           # Daily screenshots
 ├── archive_DATE.zip       # Final archive per session
@@ -40,7 +42,7 @@ When the session ends, it generates a **PDF report** of keyboard logs, creates a
 
 ### 1. Clone the Repo
 ```bash
-git clone https://github.com/yourusername/activity-logger.git
+git clone https://github.com/its-yuvi-bhalla/ActivityLogger.git
 cd activity-logger
 ```
 
@@ -76,8 +78,7 @@ Inside:
 ---
 
 ## 🔮 Roadmap
-- [ ] Add a **UI (Electron.js / Web Dashboard)** for start/stop controls and live status  
-- [ ] Adjustable intervals for screenshots & logs  
+- [ ] Add a **UI (Electron.js / Web Dashboard)** for start/stop controls and live status    
 - [ ] Cloud upload (Google Drive / AWS S3) for safe storage  
 - [ ] Tamper-proofing with hash/signature validation  
 
